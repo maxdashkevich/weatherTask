@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+body {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    height: 100vh;
+    color: #ffffff;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    background: linear-gradient(4deg, #5462c3, #ba872c);
+  }
+  
+.weather {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.cities {
+    margin-top: 200px;
+}
+
